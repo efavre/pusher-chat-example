@@ -1,0 +1,14 @@
+<%= javascript_include_tag "http://js.pusher.com/1.11/pusher.min.js" %>
+
+<h1>Utilisateurs Connectés</h1>
+<div id="members-list">
+</div>
+
+<div id="instant-messaging" data-pusher-key="<%=Pusher.key%>">
+<h1>Messagerie Instantanée</h1>
+<%= form_tag "home/send_message", :remote => true do %>
+<%= text_field_tag "message" %>
+
+<%= submit_tag "Envoyer" %>
+<% end %>
+</div>

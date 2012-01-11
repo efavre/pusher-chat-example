@@ -1,0 +1,5 @@
+This application is a mere example of how the Pusher (http://pusher.com/) API can be used. It is a very simple instant messaging service. 
+
+A blog post explaining the development steps (in French) can be found here : http://blog.octo.com/.
+
+A live demo of this application can be tested here : http://pusher-chat-example.herokuapp.com/. Use credentials test@pusher-chat-example.com/tester and test2@pusher-chat-example.com/tester to try it out.
